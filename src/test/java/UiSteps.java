@@ -22,8 +22,8 @@ public class UiSteps {
 
     @Step("Continue shopping and add second item to cart")
     public void secondItemAdd() {
-        $(byAttribute("name", "continueshopping")).click();
-        $(byAttribute("data-productid", "74")).click();
+        $(by("name", "continueshopping")).click();
+        $(by("data-productid", "74")).click();
         $("#add-to-cart-button-74").click();
     }
 
